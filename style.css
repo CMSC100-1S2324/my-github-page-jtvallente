@@ -1,0 +1,150 @@
+body {margin: 0px; font-family: 'Raleway', sans-serif; }
+p, h2, .navbar_items {line-height: 1.5; letter-spacing: 1px;}
+
+/* START OF FOOTER STYLES*/
+footer {
+    width: 100%;
+    height: auto;
+    margin: 40px 0px 0px 0px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+.footer-container {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-content: space-evenly;
+    flex-wrap: wrap; 
+    text-align: left;
+}
+
+.footer-items {margin: 0px 20px 0px 20px; text-align: left;}
+
+
+
+/* START OF HEADER STYLES*/
+.header {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    border-bottom: 1px solid black;
+    height: 140px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+    
+}
+.navbar {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    background-color: white;
+    margin-top: -10px;
+    height: 40px;
+}
+.navbar_items {
+    margin-top: 5px;
+    padding: 5px 20px;   
+}
+
+.logo {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 8px;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: #02155A;
+}
+.link {
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/*BANNER STYLES*/
+.banner {width:100%; margin-top:3px; position: relative;}
+.banner-img {width: 100%;}
+
+/*STYLES FOR PREVIOUS PROJECTS SECTION*/
+.previous_projects {
+    margin: -8% auto 0 auto; 
+    opacity: 0.9;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.previous_projects, .sub-header {
+    background-color:white;
+    text-align: center;
+    border-radius: 25px;
+    padding: 20px 0px 20px 0px;   
+}
+
+
+.sub-header, .previous_projects, .text-holder{
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-content: space-evenly;
+    flex-wrap: wrap; 
+}
+
+.proj_items {
+    margin-top: 20px;
+    padding: 20px;
+    width: 380px;
+    color: #02155A;
+}
+
+.text-holder { /*class for PREVIOUS PROJECT text*/
+    background-color:black;
+    text-align: center;
+    align-items: center; 
+    margin: 0% auto 0 auto; 
+    border-radius: 25px;
+    opacity: 0.8;
+}
+
+.banner-text { /*Placeholder for PREVIOUS PROJECT text*/
+    position: absolute;
+    width: 400px;
+    margin-top: -16%;
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    text-align: center;
+    color: white; 
+    padding: 5px; 
+    
+}
+
+/*SKILLS AND AUTOBIOGRAPHY STYLES*/
+.skill {width: 20%; padding: 25px;}
+.skill-set, .autobiography{
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2);
+    height: auto;                  /*change to auto*/
+    align-items: center;
+    border-radius: 25px;
+    margin-top: 50px;
+    
+}
+.sub-header-text-1 {
+    width: 500px;
+    padding: 20px;
+    margin-top: 10px;
+}
+.autobiography, .skill-set {width: 100%;}
+.subtext-design, .banner-text {
+    color: #02155A;
+    text-decoration: underline;
+    text-underline-offset: 14px;
+    text-decoration-style: dashed; 
+    text-decoration-color: lightgray; 
+    text-decoration-thickness: 2px;
+}
+
+.skill-set{ display: flex; flex-wrap: wrap; justify-content: center;}
+
+
+
+
+
