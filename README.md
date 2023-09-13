@@ -6,11 +6,11 @@ Degree Program: Bachelor of Science in Computer Science
 
 Live Website Link: https://cmsc100-1s2324.github.io/my-github-page-jtvallente/#
 
-Steps on how to create github page:
-  - Inside your repository, go to SETTINGS.
-  - On the right side of the screen is the navigation bar, find PAGES (under code and automation).
-  - Inside the pages, choose the deploy from a branch (main)
-  - The page will reload and then your github page will be ready. You can access the live website through the URL provided. 
+Steps on How to Create a GitHub Page:
+  - Inside your repository, navigate to "Settings."
+  - On the right side of the screen, you'll find the navigation bar; locate "Pages" (under "Code and Automation").
+  - In the "Pages" section, select "Deploy from Branch" (usually "main" or your preferred branch).
+  - The page will reload, and your GitHub Page will be created. You can access the live website using the provided URL.
 
-What are your takeaways from this exercise?
-  - Always consider the mobile view when designing a webpage for better user experience.
+Takeaways from This Exercise:
+  - Always consider the mobile view when designing a webpage to enhance the user experience.
